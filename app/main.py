@@ -18,7 +18,7 @@ app = FastAPI(
 # =============================================================================
 # MIDDLEWARE: CORS (Seguridad de Navegador)
 # =============================================================================
-# Permite peticiones desde el Frontend (React) y el motor de juego (Godot).
+# Permite peticiones desde el Frontend (React) y el motor de juego (Flutter).
 origins = [
     "http://localhost",
     "http://localhost:3000",
