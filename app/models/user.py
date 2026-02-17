@@ -1,8 +1,6 @@
-from sqlalchemy.orm import Mapped, mapped_column, DeclarativeBase
+from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy import String
-
-class Base(DeclarativeBase):
-    pass
+from app.db.base import Base
 
 class User(Base):
     __tablename__ = "usuarios"
