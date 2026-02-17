@@ -1,11 +1,20 @@
+# --- Basura de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Configuración y Entornos ---
 .env
-
 .venv
+venv/
+ENV/
 
-# --- Herramientas de Python  ---
+# --- Herramientas de Python ---
 .ruff_cache/
 .pytest_cache/
 .mypy_cache/
 .uv/
 
+# --- Logs y Bases de Datos locales ---
 *.log
+*.sqlite
