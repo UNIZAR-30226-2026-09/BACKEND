@@ -8,4 +8,7 @@
 .mypy_cache/
 .uv/
 
+__pycache__/
+*.pyc
+
 *.log
